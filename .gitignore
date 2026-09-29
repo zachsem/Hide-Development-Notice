@@ -1,0 +1,11 @@
+# Local investigation and packaging output; never ship game assets or UE4SS.
+work/
+dist/
+*.log
+*.pak
+*.uasset
+*.uexp
+*.usmap
+*.dll
+*.exe
+__pycache__/
