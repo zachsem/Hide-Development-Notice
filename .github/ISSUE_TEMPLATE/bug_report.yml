@@ -1,0 +1,72 @@
+name: Bug report
+description: Report a Hide Development Notice failure or compatibility problem
+title: "[Bug]: "
+body:
+  - type: input
+    id: manor_lords
+    attributes:
+      label: Manor Lords version
+      description: Include the game version and Steam build number if available.
+      placeholder: "0.8.104, Steam build 24905706"
+    validations:
+      required: true
+
+  - type: input
+    id: ue4ss
+    attributes:
+      label: UE4SS version
+      placeholder: "v3.0.1 Beta #0 / 0bfec09e"
+    validations:
+      required: true
+
+  - type: input
+    id: language
+    attributes:
+      label: Game language
+      placeholder: "English"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: problem_type
+    attributes:
+      label: What happened?
+      options:
+        - Development notice was not dismissed
+        - A different popup or dialog was affected
+        - Game or main menu failed to start normally
+        - Mod produced an error
+        - Other / unsure
+    validations:
+      required: true
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: Describe the problem
+      description: Explain what you expected to happen and what happened instead.
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: UE4SS log
+      description: Drag and drop the relevant UE4SS log here, or paste the Hide Development Notice lines.
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Before submitting
+      options:
+        - label: I checked existing issues for the same problem.
+          required: true
