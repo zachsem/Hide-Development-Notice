@@ -68,6 +68,6 @@ Missing functions or properties, invalid objects, changed classes, unexpected ow
 
 ## Validation status
 
-Version **0.1.0** passes the recorded launch, menu, rejection, removal, and save checks. The exact release files dismissed the notice on a fresh launch with one success log message. Settings and Load Game remained usable. Removing the mod restored the notice. The automated suite passed **72 tests**, and all **29 save files** were unchanged by count, length, and SHA-256 hash.
+Version **1.0.0** passes the recorded launch, menu, rejection, removal, and save checks. The exact release files dismissed the notice on a fresh launch with one success log message. Settings and Load Game remained usable. Removing the mod restored the notice. The automated suite passed **72 tests**, and all **29 save files** were unchanged by count, length, and SHA-256 hash.
 
 See [validation results and limits](VALIDATION.md). Future announcements and game updates cannot be tested before they exist; unmatched-message and changed-target behavior is covered by rejection tests and the absence of any generic dialog suppression.

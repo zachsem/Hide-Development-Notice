@@ -1,6 +1,6 @@
 # Hide Development Notice — validation
 
-Version **0.1.0**, tested September 29, 2026 against Manor Lords **0.8.104**, Steam build **24905706**, Unreal Engine **5.5**, installed UE4SS **v3.0.1 Beta #0 / 0bfec09e**.
+Version **1.0.0**, tested September 29, 2026 against Manor Lords **0.8.104**, Steam build **24905706**, Unreal Engine **5.5**, installed UE4SS **v3.0.1 Beta #0 / 0bfec09e**.
 
 ## Live checks
 

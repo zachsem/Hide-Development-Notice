@@ -6,7 +6,7 @@ It checks the notice's exact widget class, menu ownership, child widgets, comple
 
 ## Status and compatibility
 
-Version **0.1.0**. Verified automatic dismissal, normal menu interaction, and restoration of the notice after removal. The regression suite passes **72 tests**. All **29 save files** retained their original SHA-256 hashes during testing. See [validation results](docs/VALIDATION.md).
+Version **1.0.0**. Verified automatic dismissal, normal menu interaction, and restoration of the notice after removal. The regression suite passes **72 tests**. All **29 save files** retained their original SHA-256 hashes during testing. See [validation results](docs/VALIDATION.md).
 
 Investigated environment:
 
