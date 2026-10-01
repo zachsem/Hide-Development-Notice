@@ -1,6 +1,9 @@
 name: Feature request
 description: Suggest a narrowly scoped improvement to Hide Development Notice
 title: "[Request]: "
+labels:
+  - "type: enhancement"
+  - "status: needs triage"
 body:
   - type: textarea
     id: feature
