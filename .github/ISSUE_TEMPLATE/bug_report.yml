@@ -1,6 +1,9 @@
 name: Bug report
 description: Report a Hide Development Notice failure or compatibility problem
 title: "[Bug]: "
+labels:
+  - "type: bug"
+  - "status: needs triage"
 body:
   - type: input
     id: manor_lords
