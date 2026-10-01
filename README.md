@@ -54,3 +54,7 @@ See [the investigation report](docs/INVESTIGATION.md) for the evidence, dismissa
 ## Issues and requests
 
 Use [GitHub Issues](https://github.com/zachsem/Hide-Development-Notice/issues) for bug reports and narrowly scoped requests.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
