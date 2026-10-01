@@ -4,6 +4,15 @@ A standalone UE4SS Lua mod for Manor Lords that automatically dismisses the spec
 
 It checks the notice's exact widget class, menu ownership, child widgets, complete English text, focus, and normal dismissal function before acting. If any check fails, the notice stays visible. Detection is limited to this widget; unmatched dialogs remain under the game's normal menu system.
 
+## Downloads
+
+Installable releases are available from:
+
+- [CurseForge](https://www.curseforge.com/manor-lords/mods/hide-development-notice)
+- [Nexus Mods](https://www.nexusmods.com/manorlords/mods/397)
+
+GitHub is the source, documentation, and issue-tracking repository. Do not use GitHub's **Code → Download ZIP** archive as the installable mod package.
+
 ## Status and compatibility
 
 Version **1.0.0**. Verified automatic dismissal, normal menu interaction, and restoration of the notice after removal. The regression suite passes **72 tests**. All **29 save files** retained their original SHA-256 hashes during testing. See [validation results](docs/VALIDATION.md).
@@ -41,3 +50,7 @@ Close the game, then remove the `HideDevelopmentNotice` folder. Remove or disabl
 The mod uses one specific main-menu lifecycle hook. It has no Tick hook, polling loop, delayed retry, or general dialog scan. It changes no gameplay, saves, global notification settings, or startup-dialog gates. UE4SS is its only dependency.
 
 See [the investigation report](docs/INVESTIGATION.md) for the evidence, dismissal choice, and conservative behavior after updates.
+
+## Issues and requests
+
+Use [GitHub Issues](https://github.com/zachsem/Hide-Development-Notice/issues) for bug reports and narrowly scoped requests.
