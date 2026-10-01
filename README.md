@@ -25,6 +25,13 @@ Investigated environment:
 
 This version deliberately supports only the verified English notice. A different language, changed text, or changed menu structure causes it to leave the notice alone. Compatibility with other builds is unverified.
 
+## Requirements
+
+- Manor Lords
+- UE4SS
+
+The release was verified with UE4SS **v3.0.1 Beta #0** (commit **0bfec09e**). Other UE4SS versions are unverified unless documented otherwise.
+
 ## Installation
 
 Use an existing, working UE4SS installation. Copy the mod's `HideDevelopmentNotice` folder into its `Mods` directory:
